@@ -1,4 +1,2 @@
 #!/bin/bash
-#preprocessor and save the result
-
 gcc - E < $CFILE > - o < c >
