@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print the phrase
+ * main: print the phrase
  * return: 0 if exited properly
  */
 int main(void)
