@@ -6,7 +6,7 @@
 int main(void)
 {
 int nu;
-for (nu = 48 ; nu <= 58; nu++)
+for (nu = 48 ; nu <= 57; nu++)
 {
 putchar(nu);
 }
