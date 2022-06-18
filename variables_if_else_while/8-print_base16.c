@@ -7,7 +7,7 @@ int main(void)
 {
 int num;
 char alp;
-for (num = 48; num < 57; num++)
+for (num = 48; num < 58; num++)
 {
 putchar(num);
 }
