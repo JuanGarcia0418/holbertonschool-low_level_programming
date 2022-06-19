@@ -4,15 +4,15 @@
   */
 void print_alphabet_x10(void)
 {
-char alp;
-int num = 0;
-while (alp <= 9)
+char a;
+int n = 0;
+while (a <= 9)
 {
-for (alp = 'a'; alp <= 'z'; alp++)
+for (a = 'a'; a <= 'z'; a++)
 {
-_putchar(alp);
+_putchar(a);
 }
 _putchar('\n');
-num++;
+n++;
 }
 }
