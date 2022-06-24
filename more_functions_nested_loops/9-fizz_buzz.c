@@ -15,7 +15,7 @@ printf("Fizz");
 else if (nums % 5 == 0)
 printf("Buzz");
 else
-printf("%d", nums);
+printf("%i", nums);
 if (nums < 100)
 printf(" ");
 }
