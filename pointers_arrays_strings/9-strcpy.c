@@ -13,5 +13,6 @@ while (src[cou])
 dest[cou] = src[cou];
 cou++;
 }
+ *(dest + cou) = '\0';
 return (dest);
 }
