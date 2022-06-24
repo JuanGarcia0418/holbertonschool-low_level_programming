@@ -5,18 +5,18 @@
  */
 int main(void)
 {
-int nums;
-for (nums = 1; nums <= 100; nums++)
+int i;
+for (i = 1; i <= 100; i++)
 {
-if (nums % 15 == 0)
-printf("Fizzbuzz");
-else if (nums % 3 == 0)
+if (i % 15 == 0)
+printf("FizzBuzz");
+else if (i % 3 == 0)
 printf("Fizz");
-else if (nums % 5 == 0)
+else if (i % 5 == 0)
 printf("Buzz");
 else
-printf("%i", nums);
-if (nums < 100)
+printf("%i", i);
+if (i < 100)
 printf(" ");
 }
 printf("\n");
