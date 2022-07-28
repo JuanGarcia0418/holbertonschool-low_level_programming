@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
+ * add_node - add node in list
+ * @head: head of list
+ * @str: content to list
+ * Return: pointer to node
  */
 list_t *add_node(list_t **head, const char *str)
 {
