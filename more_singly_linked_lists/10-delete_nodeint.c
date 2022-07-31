@@ -5,6 +5,7 @@
  * @head: double pointer to the first node
  * @index: index of the node to delete
  * Return: pointer to the index node
+ * 
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
